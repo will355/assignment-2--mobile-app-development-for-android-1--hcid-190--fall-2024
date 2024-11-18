@@ -1,0 +1,31 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- for matrix size -->
+    <EditText
+        android:id="@+id/inputMatrixSize"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter matrix size"
+        android:inputType="number" />
+
+    <!--  create and flip matrix -->
+    <Button
+        android:id="@+id/generateMatrixButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Generate Matrix" />
+
+    <!-- display the matrix output -->
+    <TextView
+        android:id="@+id/matrixOutput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="16sp"
+        android:paddingTop="20dp" />
+
+</LinearLayout>
